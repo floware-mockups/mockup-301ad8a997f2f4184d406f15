@@ -1,0 +1,202 @@
+{
+  "title": "Gestione appuntamenti anagrafici",
+  "description": "Sportello per consultare gli appuntamenti del giorno, verificare la disponibilità settimanale e inserire nuove prenotazioni con dati di fantasia.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "appuntamenti-oggi",
+      "title": "Appuntamenti di oggi",
+      "description": "Elenco filtrabile delle prenotazioni giornaliere dello sportello anagrafico.",
+      "metrics": [
+        {
+          "label": "Appuntamenti oggi",
+          "value": "8"
+        },
+        {
+          "label": "In attesa",
+          "value": "3"
+        },
+        {
+          "label": "Confermati",
+          "value": "4"
+        },
+        {
+          "label": "Completati",
+          "value": "1"
+        }
+      ],
+      "columns": [
+        "Orario",
+        "Richiedente",
+        "Servizio",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "09:00",
+          "Lumo Riva",
+          "Carta anagrafica",
+          "Confermato"
+        ],
+        [
+          "09:30",
+          "Vela Neri",
+          "Cambio di residenza",
+          "In attesa"
+        ],
+        [
+          "10:00",
+          "Nubi Sera",
+          "Certificato di residenza",
+          "Completato"
+        ],
+        [
+          "10:30",
+          "Lumo Valli",
+          "Carta anagrafica",
+          "Confermato"
+        ],
+        [
+          "11:00",
+          "Vela Fiori",
+          "Dichiarazione di nascita",
+          "In attesa"
+        ],
+        [
+          "11:30",
+          "Nubi Riva",
+          "Cambio di residenza",
+          "Confermato"
+        ],
+        [
+          "14:00",
+          "Lumo Neri",
+          "Certificato di stato civile",
+          "In attesa"
+        ],
+        [
+          "14:30",
+          "Vela Sera",
+          "Carta anagrafica",
+          "Confermato"
+        ]
+      ],
+      "form": [
+        "Orario",
+        "Richiedente",
+        "Servizio",
+        "Stato"
+      ]
+    },
+    {
+      "id": "calendario-settimanale",
+      "title": "Calendario settimanale",
+      "description": "Vista sintetica della disponibilità e del carico di prenotazioni per giorno e fascia oraria.",
+      "metrics": [
+        {
+          "label": "Settimana",
+          "value": "12–16 maggio"
+        },
+        {
+          "label": "Slot disponibili",
+          "value": "17"
+        },
+        {
+          "label": "Giorni aperti",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Giorno",
+        "Mattina",
+        "Pomeriggio",
+        "Totale prenotazioni"
+      ],
+      "rows": [
+        [
+          "Lunedì",
+          "4 prenotazioni · 2 slot liberi",
+          "2 prenotazioni · 4 slot liberi",
+          "6"
+        ],
+        [
+          "Martedì",
+          "3 prenotazioni · 3 slot liberi",
+          "3 prenotazioni · 3 slot liberi",
+          "6"
+        ],
+        [
+          "Mercoledì",
+          "5 prenotazioni · 1 slot libero",
+          "1 prenotazione · 5 slot liberi",
+          "6"
+        ],
+        [
+          "Giovedì",
+          "2 prenotazioni · 4 slot liberi",
+          "4 prenotazioni · 2 slot liberi",
+          "6"
+        ],
+        [
+          "Venerdì",
+          "3 prenotazioni · 3 slot liberi",
+          "2 prenotazioni · 4 slot liberi",
+          "5"
+        ]
+      ],
+      "form": [
+        "Giorno",
+        "Mattina",
+        "Pomeriggio",
+        "Totale prenotazioni"
+      ]
+    },
+    {
+      "id": "nuova-prenotazione",
+      "title": "Nuova prenotazione",
+      "description": "Registra un appuntamento indicando richiedente, servizio, giorno e orario richiesti.",
+      "metrics": [
+        {
+          "label": "Servizi disponibili",
+          "value": "4"
+        },
+        {
+          "label": "Durata standard",
+          "value": "30 min"
+        }
+      ],
+      "columns": [
+        "Richiedente",
+        "Servizio",
+        "Giorno",
+        "Orario"
+      ],
+      "rows": [
+        [
+          "Lumo Fiori",
+          "Carta anagrafica",
+          "15 maggio",
+          "09:00"
+        ],
+        [
+          "Vela Valli",
+          "Cambio di residenza",
+          "15 maggio",
+          "09:30"
+        ],
+        [
+          "Nubi Neri",
+          "Certificato di residenza",
+          "16 maggio",
+          "10:00"
+        ]
+      ],
+      "form": [
+        "Richiedente",
+        "Servizio",
+        "Giorno",
+        "Orario"
+      ]
+    }
+  ]
+}
